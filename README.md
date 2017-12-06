@@ -37,18 +37,25 @@ npm install -g truffle
 #### 7. Install our tutorial package
 
 ```
-coming soon!
+git clone https://github.com/wespr/digitaltech
+```
+
+#### 9. Install our tutorial dependencies
+
+```
+cd digitaltech && npm install
 ```
 
 #### 8. You’re done!
 
 ## Run you first dApp
+
 We’re gonna see how things work during the workshop. If you wanna take a look by yourself you can just:
 
 #### 1. Launch testrpc
 
 ```
-testrpc <options>
+testrpc
 ```
 
 #### 2. Compile and migrate the contracts
